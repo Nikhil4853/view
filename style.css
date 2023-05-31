@@ -1,0 +1,171 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ :root {
+     --primary-text-color: #183b56;
+     --secondry-text-color: #577592;
+     --accent-color: #2294ed;
+     --accent-color-dark: #1b69a3;
+     --pading-line-section: 20px
+ }
+ /* utility   */
+ 
+ h2 {
+     padding: 20px;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .flex {
+     display: flex;
+ }
+ 
+ .areaFlex {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     gap: 30px;
+ }
+ 
+ .primary-button {
+     background-color: var(--accent-color);
+     border-radius: 6px;
+     font-weight: 700;
+     color: white !important;
+     box-shadow: 0 0 2px var(--secondry-text-color);
+     transition: 0.2s ease-out;
+     padding: 6px 12px;
+ }
+ 
+ .primary-button:hover {
+     background-color: var(--accent-color-dark);
+ }
+ 
+ .secodry-button {
+     border: 0.5px solid var(--secondry-text-color);
+     border-radius: 6px;
+     font-weight: 700px;
+     color: var(--primary-text-color) !important;
+     padding: 6px 12px;
+     transition: 0.2s ease-out;
+ }
+ 
+ .secodry-button:hover {
+     border-color: var(--accent-color);
+     box-shadow: 0px 0px 5px 0px;
+     color: var(--accent-color) !important;
+ }
+ 
+ .secodry-button:hover {
+     border-color: var(--accent-color);
+     color: var(--accent-color) !important;
+ }
+ /* nava bar  */
+ 
+ header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: #fff;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     align-items: center;
+     padding: 0px 20px;
+     box-shadow: 1px 0px 3px 0px;
+     border-radius: 8px;
+     margin: 5px;
+ }
+ 
+ .navbar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .navbar li {
+     display: inline-block;
+     margin: 10px;
+ }
+ 
+ .navbar li a {
+     color: #222;
+     text-decoration: none;
+     transition: 0.5s ease-out;
+ }
+ 
+ .left p {
+     transition: 0.5s ease-out;
+ }
+ 
+ .left p:hover {
+     color: rgb(109, 186, 236);
+ }
+ 
+ .navbar li a:hover {
+     font-size: 20px;
+     color: rgb(109, 186, 236);
+ }
+ /* information  */
+ 
+ h1 {
+     color: #333;
+     margin: 0;
+ }
+ 
+ main {
+     margin-top: 40px;
+     padding: 0px 80px;
+     line-height: 1.6;
+ }
+ 
+ .terrain {
+     margin-bottom: 40px;
+ }
+ 
+ .terrain img {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+ }
+ 
+ .terrain h2 {
+     color: #333;
+     font-size: 24px;
+     margin: 0 0 10px;
+ }
+ 
+ .terrain p {
+     color: #666;
+     margin: 0;
+ }
+ 
+ .Northern {}
+ 
+ .himalayaImg {
+     width: 500px;
+ }
+ 
+ .himalayaImg img {
+     width: 100%;
+     border-radius: 60px;
+     box-shadow: 0px 0px 15px 0px;
+ }
+ 
+ .costalImg {
+     width: 500px;
+ }
+ 
+ .costalImg img {
+     width: 100%;
+     border-radius: 60px;
+     box-shadow: 0px 0px 15px 0px;
+ }
